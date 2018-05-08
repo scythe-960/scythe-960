@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <resource-files>
+    <include path="/**.properties" />
+  </resource-files>
+  
+  
+  <threadsafe>true</threadsafe>
+  <sessions-enabled>false</sessions-enabled>
+  <runtime>java8</runtime>
+  
+   <env-variables>       
+     <env-var name="GAE_MEMORY_MB" value="1024M" />
+     <env-var name="HEAP_SIZE_RATIO" value="90" />
+   </env-variables>
+
+</appengine-web-app>
